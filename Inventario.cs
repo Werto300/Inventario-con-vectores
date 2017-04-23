@@ -24,7 +24,7 @@ namespace Inventario
             {
                 for (int i = 0; i < tamaño && aux == 0; i++)
                 {
-                    if (Inve1[i].regresaCodigo() == Inve1[tamaño].regresaCodigo())
+                    if (Inve1[i].regresaCodigo() == prod.regresaCodigo())
                     {
                         aux = 1;
                     }
